@@ -1,0 +1,23 @@
+{
+  "name": "api-controle-administrativo",
+  "version": "1.0.0",
+  "description": "Api de controle administrativo, projeto educacional para a materia de microsserviços",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcgalvez/18E4-2-api-controle-administrativo.git"
+  },
+  "author": "Frank Carrasco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fcgalvez/18E4-2-api-controle-administrativo/issues"
+  },
+  "homepage": "https://github.com/fcgalvez/18E4-2-api-controle-administrativo#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.3.15"
+  }
+}
