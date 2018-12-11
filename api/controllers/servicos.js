@@ -8,3 +8,12 @@ module.exports.servicos = function(application, req, res){
     ]);
 
 }
+
+module.exports.servicos_1 = function(application, req, res){
+
+    res.status(200).json([
+        [1,"Alterações cadastrais ou declarações","3 dias"]
+    ]);
+
+}
+
