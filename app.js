@@ -1,11 +1,8 @@
+const porta = 3000;
 var app = require('./server/server');
 
-var routeService = require('./api/routes/home');
+var routeService = require('./api/routes/servicos');
 routeService(app);
-
-//  app.get('/', (req, res) => )
-
-const porta = 3000;
 
 app.listen(porta, function(){
 
